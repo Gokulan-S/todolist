@@ -1,0 +1,116 @@
+    * {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #e6e6fa;
+
+}
+
+.container {
+    width: 600px;
+    margin:auto ;
+    margin-top: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 10px 20px;
+ 
+}
+
+.container p {
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+
+    justify-content: center;
+
+}
+
+.input-field {
+    display: flex;
+    width: 100%;
+}
+
+.input-field input {
+    width: 90%;
+    height: 40px;
+    padding-left: 10px;
+    margin: 20px 0 10px;
+    font-size: 15px;
+    font-weight: 600;
+    border: 2px solid #C0C0F2;
+    outline: 0;
+    border-radius: 5px;
+}
+
+.input-field button {
+    width: 20%;
+    height: 40px;
+    margin: 20px 0 10px;
+    font-size: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    color:#0e1318;
+    background: #C0C0F2;
+    margin-left: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.textcontainer {
+    
+    height: 40px;
+
+   
+}
+ul div {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: auto;
+    column-gap: 5px;
+    
+}
+span.hello{
+    color: black;
+    background-color: #C0C0F2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    min-height: 40px;
+    height: auto;
+    font-weight: 600;
+
+    
+    width: 90%;
+    max-width: 100%;
+    min-width: 80%;
+    white-space: pre-line ;
+    overflow-wrap: break-word;
+
+}
+.TaskContainer .fa-square-check + span.hello{
+    background-color: rgba(140, 207, 140, 0.397);
+    color: rgb(50, 114, 50);
+    text-decoration: line-through;
+    
+
+}
+
+i{
+    margin-top: 20px;
+}
+.TaskContainer{
+    display: flex;
+}
+

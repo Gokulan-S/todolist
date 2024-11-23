@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo list</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bcb7acf3a7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <form onsubmit="NewTask()">
+    <div class="container">
+        <p>todolist</p>
+        <div class="input-field">
+            
+                <input type="text" id="inputText" placeholder="Enter Tasks">
+                <button type="submit" name="add">Add</button>
+              
+        </div>
+
+        <ul id="listContainer">
+           
+        </ul>
+    </div>
+</form>
+    <script src="script.js"></script>
+    
+    
+</body>
+
+</html>
