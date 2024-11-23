@@ -1,5 +1,5 @@
-**📝 ToDo List Website
-**
+📝 **ToDo List Website**
+
 A simple and intuitive ToDo List Website built with HTML, CSS, and JavaScript, designed to help you manage tasks efficiently.
 
 This project is lightweight, responsive, and leverages localStorage to keep your tasks saved even after refreshing or closing the browser.
