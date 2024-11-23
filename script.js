@@ -25,7 +25,7 @@ function NewTask() {
     let input = document.getElementById('inputText');
 
     if (input.value === "") {
-        alert("first enter");
+        alert("first enter the tasks");
     } else {
         let textSpan = document.createElement("span");
         textSpan.classList.add("hello");
