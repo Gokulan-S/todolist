@@ -4,7 +4,7 @@ A simple and intuitive ToDo List Website built with HTML, CSS, and JavaScript, d
 
 This project is lightweight, responsive, and leverages localStorage to keep your tasks saved even after refreshing or closing the browser.
 ------------------------------------------------------------------------------------------------
-🚀 Features
+**🚀 Features**
 ✅ Add Tasks: Quickly add tasks to your list with a sleek input field and dynamic functionality.
 
 ✔️ Mark as Complete: Toggle tasks as completed with a visually interactive checkbox.
